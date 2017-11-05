@@ -1,4 +1,4 @@
-package com.tal.servlet;
+﻿package com.tal.servlet;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -28,8 +28,8 @@ import com.tal.utils.PropertiesReadUtils;
 
 /**
  * 
- * @author 吴海飞
- * @d2016年12月27日
+ * @author whfstudio@163.com
+ * @d 2016年12月27日
  */
 public class CreateJmxServlet extends HttpServlet {
 
@@ -612,8 +612,6 @@ public class CreateJmxServlet extends HttpServlet {
 
 		}
 
-		// ���Ӷ��Խڵ�
-
 		String xpath4 = "//ResponseAssertion[@testname]";
 		List<Node> list4 = document.selectNodes(xpath4);
 		for (int n = 0; n < list4.size(); n++) {
@@ -1090,7 +1088,7 @@ public class CreateJmxServlet extends HttpServlet {
 		writer.write(document);
 		writer.flush();
 		writer.close();
-		return "��Ĳ����ѳɹ��ύ";
+		return "生成jmx脚本";
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.tal.servlet;
+﻿package com.tal.servlet;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 执行监本文件的servlet
  * 
- * @author 吴海飞
+ * @author whfstudio@163.com
  * @date 2016年12月27日
  */
 public class StartCmdServlet extends HttpServlet {

@@ -1,4 +1,4 @@
-package com.tal.servlet;
+﻿package com.tal.servlet;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 生成Html模板的servlet
  * 
- * @author 吴海飞
+ * @author whfstudio@163.com
  * @d2017年1月22日
  */
 public class CreateResponseHtml extends HttpServlet {

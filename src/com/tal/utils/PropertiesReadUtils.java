@@ -7,7 +7,7 @@ import java.util.Properties;
 /**
  * 读取配置文件的工具类
  * 
- * @author wuhaifei
+ * @author whfstudio@163.com
  * @date 2016/1/8
  */
 public class PropertiesReadUtils {

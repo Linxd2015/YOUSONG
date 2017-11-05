@@ -14,8 +14,8 @@ import com.tal.utils.PropertiesReadUtils;
 
 /**
  * 
- * @author 吴海飞
- * @d2016年12月27日
+ * @author whfstudio@163.com
+ * @d 2016年12月27日
  */
 public class UploadServlet extends HttpServlet {
 
