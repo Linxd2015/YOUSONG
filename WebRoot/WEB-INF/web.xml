@@ -9,25 +9,25 @@
 		<description>This is the description of my J2EE component</description>
 		<display-name>This is the display name of my J2EE component</display-name>
 		<servlet-name>uploadServlet</servlet-name>
-		<servlet-class>com.tal.servlet.uploadServlet</servlet-class>
+		<servlet-class>com.tal.servlet.UploadServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<description>This is the description of my J2EE component</description>
 		<display-name>This is the display name of my J2EE component</display-name>
 		<servlet-name>createJmxServlet</servlet-name>
-		<servlet-class>com.tal.servlet.createJmxServlet</servlet-class>
+		<servlet-class>com.tal.servlet.CreateJmxServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<description>This is the description of my J2EE component</description>
 		<display-name>This is the display name of my J2EE component</display-name>
 		<servlet-name>startCmdServlet</servlet-name>
-		<servlet-class>com.tal.servlet.startCmdServlet</servlet-class>
+		<servlet-class>com.tal.servlet.StartCmdServlet</servlet-class>
 	</servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>createResponseHtml</servlet-name>
-    <servlet-class>com.tal.servlet.createResponseHtml</servlet-class>
+    <servlet-class>com.tal.servlet.CreateResponseHtml</servlet-class>
   </servlet>
 
 

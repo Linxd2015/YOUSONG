@@ -8,22 +8,28 @@ import java.util.Properties;
  * 读取配置文件的工具类
  * 
  * @author wuhaifei
- * @d2016�?1�?8�?
+ * @date 2016/1/8
  */
 public class PropertiesReadUtils {
-	/*
-	 * 私有化构造方法
+
+	/**
+	 *  私有化构造方法.
 	 */
 	private PropertiesReadUtils() {
 
 	}
 
-	// 私有化的内部类
+	/**
+	 * 私有化的内部类.
+	 */
 	private static class SingletonInstance {
 		static PropertiesReadUtils instance = new PropertiesReadUtils();
 	}
 
-	// 获取PropertiesReadUtils的单例对
+	/**
+	 * 获取PropertiesReadUtils的单例对.
+	 * @return
+	 */
 	public static PropertiesReadUtils getInstance() {
 		return SingletonInstance.instance;
 	}
